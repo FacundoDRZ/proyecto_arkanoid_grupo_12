@@ -22,7 +22,11 @@ function Juego(){
             },
        };
    
+
        const Escenas=[Escena, Nivel1,Gameover,Congratulations];
+
+       const Escenas=[Nivel1,Gameover,Congratulations];
+
        const crearEscena=Scene =>new Scene (CONFIGURACION);
        const iniciarEscena=()=>Escenas.map(crearEscena);
 
