@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "phaser": "^3.55.2",
+    "react-bootstrap": "^2.5.0",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "^5.0.1"
+  }
+}
