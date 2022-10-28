@@ -8,7 +8,11 @@ export class RestarButton {
 
     preload() {
         //cargarremos el sprite, en este caso el de restart y le añadimos un framde ancho como de alto 
+
         this.relatedScene.load.spritesheet("button", "img/restart.png", { frameWidth: 190, frameHeigth: 49 });
+
+        this.relatedScene.load.spritesheet("button", "./img/restart.png", { frameWidth: 190, frameHeigth: 49 });
+
     }
 
     create() {

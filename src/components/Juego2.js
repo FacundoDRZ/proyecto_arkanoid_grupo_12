@@ -4,7 +4,10 @@ import {useState,useEffect} from "react";
 import {Gameover} from "./Game-over.js";
 import {Congratulations} from "./Congratulations.js";
 import Nivel2 from "./Nivel2";
+
 import Escena2 from './Escena2.js';
+
+
 
 
 
@@ -22,7 +25,11 @@ function Juego2(){
             },
        };
    
+
        const Escenas=[Escena2, Nivel2,Gameover,Congratulations];
+
+       const Escenas=[Nivel2,Gameover,Congratulations];
+
        const crearEscena=Scene =>new Scene (CONFIGURACION);
        const iniciarEscena=()=>Escenas.map(crearEscena);
 
