@@ -1,5 +1,5 @@
-import ClaseColaboradores from "../components/ClaseColaboradores";
-import Listacolaboradores from "../components/Json/Listacolaboradores.json";
+import ClaseColaboradores from "./ClaseColaboradores";
+import Listacolaboradores from "./Json/Listacolaboradores.json";
 import Row from "react-bootstrap/Row";
 import Conteiner  from "react-bootstrap/Container";
 

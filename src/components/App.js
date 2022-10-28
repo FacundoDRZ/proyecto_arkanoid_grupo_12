@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 import Juego from "./Juego.js";
 import "./App.css";
 import "./index.css";
-import Juego2 from "../components/Juego2";
+import Juego2 from "./Juego2";
 import Colaboradores from "./Colaboradores.js";
 import PaginaPrincipal from "./Paginaprincipal";
 
