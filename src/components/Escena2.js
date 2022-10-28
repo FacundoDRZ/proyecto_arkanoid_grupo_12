@@ -6,7 +6,7 @@ class Escena extends Phaser.Scene{
         super({ key : "Escena"});
 
         this.config=config; 
-        this.lvl1
+        this.lvl2
     }
     //creamos un init para ver el puntaje del jugador
     init() {
@@ -41,9 +41,7 @@ class Escena extends Phaser.Scene{
             //esto vendria a ser los nombre de los ladrillos que elegimos
             key:["bluebrick","orangebrick","greenbrick","blackbrick"],
             //elegimos cuantos ladrillos van por fila, en este caso son 10 por fila
-
-            frameQuantity:5,
-
+            frameQuantity:10,
             gridAlign:{
                 //tiene un ancho
                 width:10,
