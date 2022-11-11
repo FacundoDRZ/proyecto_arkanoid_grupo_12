@@ -28,7 +28,7 @@ function Juego2(){
 
        const Escenas=[Escena2, Nivel2,Gameover,Congratulations];
 
-       const Escenas=[Nivel2,Gameover,Congratulations];
+       /*const Escenas=[Nivel2,Gameover,Congratulations];*/
 
        const crearEscena=Scene =>new Scene (CONFIGURACION);
        const iniciarEscena=()=>Escenas.map(crearEscena);

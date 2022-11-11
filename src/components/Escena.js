@@ -40,11 +40,11 @@ class Escena extends Phaser.Scene{
         this.bricks=this.physics.add.staticGroup({
             //esto vendria a ser los nombre de los ladrillos que elegimos
             key:["bluebrick","orangebrick","greenbrick","blackbrick"],
-            //elegimos cuantos ladrillos van por fila, en este caso son 10 por fila
+            //elegimos cuantos ladrillos van por fila, en este caso son 5 por fila
 
             frameQuantity:5,
 
-            frameQuantity:10,
+            //frameQuantity:10,
 
             gridAlign:{
                 //tiene un ancho

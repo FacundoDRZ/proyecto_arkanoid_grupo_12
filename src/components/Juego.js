@@ -5,6 +5,8 @@ import {Gameover} from "./Game-over.js";
 import {Congratulations} from "./Congratulations.js";
 import Escena from './Escena.js';
 import Nivel1 from './Nivel1.js';
+import { RestarButton } from './Restar-button.js';
+import Nivel2 from './Nivel2.js';
 
 
 
@@ -23,9 +25,9 @@ function Juego(){
        };
    
 
-       const Escenas=[Escena, Nivel1,Gameover,Congratulations];
+       const Escenas=[Escena,RestarButton, Nivel1,Gameover,Congratulations];
 
-       const Escenas=[Nivel1,Gameover,Congratulations];
+       /*const Escenas=[Nivel1,Gameover,Congratulations];*/
 
        const crearEscena=Scene =>new Scene (CONFIGURACION);
        const iniciarEscena=()=>Escenas.map(crearEscena);

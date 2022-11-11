@@ -1,10 +1,4 @@
-[ 
-    {
-        "img": "./img/Guille.jpeg",
-        "Nombre": "Aprile Guillermo",
-        "Descripcion": "Soy el lider del grupo y me encargo que todo este correctamente hecho, corregir los errores y que todo este funcionando acorde al trabajo pedido."
-        
-    },
+[    
     {
         "img": "./img/Matias.jpeg",
         "Nombre": "Cruz Matias",
